@@ -29,7 +29,7 @@ export default async function Home() {
         <Categories />
       </div>
 
-      <div className="mt-8 gap-3">
+      <div className="mt-8 gap-3 px-5">
         <ProductList products={deals} />
       </div>
     </div>
