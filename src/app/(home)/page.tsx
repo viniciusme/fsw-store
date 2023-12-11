@@ -1,8 +1,8 @@
-import Categories from "./components/categories";
 import { prismaClient } from "@/lib/prisma";
 
+import Categories from "./components/categories";
 import PromoBanner from "./components/promo.banner";
-import SectionTitle from "./components/section-title";
+import SectionTitle from "../../components/ui/section-title";
 import ProductList from "../../components/ui/product-list";
 import BannerHomeMobile01 from "public/images/banners/banner-home-mobile-01.png";
 import BannerHomeMobile02 from "public/images/banners/banner-home-mobile-02.png";
