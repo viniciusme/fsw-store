@@ -1,10 +1,9 @@
-import Image from "next/image";
 import Categories from "./components/categories";
 import { prismaClient } from "@/lib/prisma";
 
 import PromoBanner from "./components/promo.banner";
 import SectionTitle from "./components/section-title";
-import ProductList from "./components/product-list";
+import ProductList from "../../components/ui/product-list";
 import BannerHomeMobile01 from "public/images/banners/banner-home-mobile-01.png";
 import BannerHomeMobile02 from "public/images/banners/banner-home-mobile-02.png";
 import BannerHomeMobile03 from "public/images/banners/banner-home-mobile-03.png";
